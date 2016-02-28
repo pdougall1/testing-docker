@@ -1,0 +1,10 @@
+
+rails:
+  environment:
+    - SECRET_KEY_BASE=some-great-secret
+    - RACK_ENV=production
+    - RAILS_ENV=production
+  build: ./
+  command: "bundle exec rails server -b '0.0.0.0'"
+  ports:
+    - '3020:3000'
