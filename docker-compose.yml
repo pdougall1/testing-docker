@@ -7,4 +7,4 @@ rails:
   build: ./
   command: "bundle exec rails server -b '0.0.0.0'"
   ports:
-    - '3020:3000'
+    - '3000'
