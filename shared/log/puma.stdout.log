@@ -1,0 +1,32 @@
+=== puma startup: 2016-03-01 12:38:30 -0500 ===
+[2835] * Starting control server on unix:///var/folders/v5/f2xhm3fj02sgghcm8pjzlttr0000gn/T/puma-status-1456853910743-2835
+[2835] - Worker 0 (pid: 2848) booted, phase: 0
+
+
+Started GET "/" for ::1 at 2016-03-01 12:38:51 -0500
+Processing by LandingController#index as HTML
+  Rendered landing/index.erb within layouts/application (1.1ms)
+Completed 200 OK in 140ms (Views: 132.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/landing.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-01 12:38:51 -0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-03-01 12:38:51 -0500
+
+
+Started GET "/assets/landing.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-01 12:38:51 -0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-03-01 12:38:51 -0500
+[2835] - Gracefully shutting down workers...
+[2835] === puma shutdown: 2016-03-01 12:38:55 -0500 ===
+[2835] - Goodbye!
+Exiting
+=== puma startup: 2016-03-01 12:41:48 -0500 ===
+[3065] * Starting control server on unix:///var/folders/v5/f2xhm3fj02sgghcm8pjzlttr0000gn/T/puma-status-1456854108004-3065
+[3065] - Worker 0 (pid: 3078) booted, phase: 0
+[3065] - Gracefully shutting down workers...
+[3065] === puma shutdown: 2016-03-01 12:41:51 -0500 ===
+[3065] - Goodbye!
+Exiting
